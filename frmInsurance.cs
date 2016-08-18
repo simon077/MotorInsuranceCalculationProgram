@@ -16,5 +16,10 @@ namespace MotorInsuranceCalculationProgram
         {
             InitializeComponent();
         }
+
+        private void frmInsurance_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
