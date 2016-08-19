@@ -63,6 +63,36 @@ namespace MotorInsuranceCalculationProgram.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Red_Cross_24x24 {
+            get {
+                object obj = ResourceManager.GetObject("Red Cross 24x24", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Red_Cross_26x26 {
+            get {
+                object obj = ResourceManager.GetObject("Red Cross 26x26", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Red_Cross_28x28 {
+            get {
+                object obj = ResourceManager.GetObject("Red Cross 28x28", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Red_Cross_32x32 {
             get {
                 object obj = ResourceManager.GetObject("Red Cross 32x32", resourceCulture);

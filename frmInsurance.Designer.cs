@@ -33,18 +33,18 @@
             this.dtpPolicyStartDate = new System.Windows.Forms.DateTimePicker();
             this.lblDriverDetails = new System.Windows.Forms.Label();
             this.pnlDriverDetails = new System.Windows.Forms.Panel();
-            this.btnEditDriver1 = new System.Windows.Forms.Button();
-            this.btnEditDriver2 = new System.Windows.Forms.Button();
-            this.btnEditDriver3 = new System.Windows.Forms.Button();
-            this.btnEditDriver4 = new System.Windows.Forms.Button();
-            this.btnEditDriver5 = new System.Windows.Forms.Button();
-            this.btnDeleteDriver1 = new System.Windows.Forms.Button();
-            this.btnDeleteDriver2 = new System.Windows.Forms.Button();
-            this.btnDeleteDriver3 = new System.Windows.Forms.Button();
-            this.btnDeleteDriver4 = new System.Windows.Forms.Button();
-            this.btnDeleteDriver5 = new System.Windows.Forms.Button();
             this.btnAddDriver = new System.Windows.Forms.Button();
             this.btnCalculatePremium = new System.Windows.Forms.Button();
+            this.btnEditDriver5 = new System.Windows.Forms.Button();
+            this.btnEditDriver4 = new System.Windows.Forms.Button();
+            this.btnEditDriver3 = new System.Windows.Forms.Button();
+            this.btnEditDriver2 = new System.Windows.Forms.Button();
+            this.btnEditDriver1 = new System.Windows.Forms.Button();
+            this.btnDeleteDriver5 = new System.Windows.Forms.Button();
+            this.btnDeleteDriver4 = new System.Windows.Forms.Button();
+            this.btnDeleteDriver3 = new System.Windows.Forms.Button();
+            this.btnDeleteDriver2 = new System.Windows.Forms.Button();
+            this.btnDeleteDriver1 = new System.Windows.Forms.Button();
             this.pnlDriverDetails.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -72,7 +72,7 @@
             // 
             this.dtpPolicyStartDate.CustomFormat = "dd MMM yyyy";
             this.dtpPolicyStartDate.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dtpPolicyStartDate.Location = new System.Drawing.Point(232, 40);
+            this.dtpPolicyStartDate.Location = new System.Drawing.Point(130, 40);
             this.dtpPolicyStartDate.Name = "dtpPolicyStartDate";
             this.dtpPolicyStartDate.Size = new System.Drawing.Size(144, 26);
             this.dtpPolicyStartDate.TabIndex = 2;
@@ -100,120 +100,10 @@
             this.pnlDriverDetails.Controls.Add(this.btnEditDriver3);
             this.pnlDriverDetails.Controls.Add(this.btnEditDriver2);
             this.pnlDriverDetails.Controls.Add(this.btnEditDriver1);
-            this.pnlDriverDetails.Location = new System.Drawing.Point(12, 153);
+            this.pnlDriverDetails.Location = new System.Drawing.Point(12, 151);
             this.pnlDriverDetails.Name = "pnlDriverDetails";
-            this.pnlDriverDetails.Size = new System.Drawing.Size(440, 114);
+            this.pnlDriverDetails.Size = new System.Drawing.Size(440, 113);
             this.pnlDriverDetails.TabIndex = 4;
-            // 
-            // btnEditDriver1
-            // 
-            this.btnEditDriver1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnEditDriver1.Location = new System.Drawing.Point(3, 3);
-            this.btnEditDriver1.Name = "btnEditDriver1";
-            this.btnEditDriver1.Size = new System.Drawing.Size(378, 32);
-            this.btnEditDriver1.TabIndex = 2;
-            this.btnEditDriver1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnEditDriver1.UseVisualStyleBackColor = true;
-            // 
-            // btnEditDriver2
-            // 
-            this.btnEditDriver2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnEditDriver2.Location = new System.Drawing.Point(3, 41);
-            this.btnEditDriver2.Name = "btnEditDriver2";
-            this.btnEditDriver2.Size = new System.Drawing.Size(378, 32);
-            this.btnEditDriver2.TabIndex = 3;
-            this.btnEditDriver2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnEditDriver2.UseVisualStyleBackColor = true;
-            // 
-            // btnEditDriver3
-            // 
-            this.btnEditDriver3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnEditDriver3.Location = new System.Drawing.Point(3, 79);
-            this.btnEditDriver3.Name = "btnEditDriver3";
-            this.btnEditDriver3.Size = new System.Drawing.Size(378, 32);
-            this.btnEditDriver3.TabIndex = 4;
-            this.btnEditDriver3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnEditDriver3.UseVisualStyleBackColor = true;
-            // 
-            // btnEditDriver4
-            // 
-            this.btnEditDriver4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnEditDriver4.Location = new System.Drawing.Point(3, 117);
-            this.btnEditDriver4.Name = "btnEditDriver4";
-            this.btnEditDriver4.Size = new System.Drawing.Size(378, 32);
-            this.btnEditDriver4.TabIndex = 5;
-            this.btnEditDriver4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnEditDriver4.UseVisualStyleBackColor = true;
-            // 
-            // btnEditDriver5
-            // 
-            this.btnEditDriver5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnEditDriver5.Location = new System.Drawing.Point(3, 155);
-            this.btnEditDriver5.Name = "btnEditDriver5";
-            this.btnEditDriver5.Size = new System.Drawing.Size(378, 32);
-            this.btnEditDriver5.TabIndex = 6;
-            this.btnEditDriver5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnEditDriver5.UseVisualStyleBackColor = true;
-            // 
-            // btnDeleteDriver1
-            // 
-            this.btnDeleteDriver1.FlatAppearance.BorderSize = 0;
-            this.btnDeleteDriver1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnDeleteDriver1.Image = global::MotorInsuranceCalculationProgram.Properties.Resources.Red_Cross_32x32;
-            this.btnDeleteDriver1.Location = new System.Drawing.Point(387, 3);
-            this.btnDeleteDriver1.Name = "btnDeleteDriver1";
-            this.btnDeleteDriver1.Size = new System.Drawing.Size(32, 32);
-            this.btnDeleteDriver1.TabIndex = 7;
-            this.btnDeleteDriver1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnDeleteDriver1.UseVisualStyleBackColor = true;
-            // 
-            // btnDeleteDriver2
-            // 
-            this.btnDeleteDriver2.FlatAppearance.BorderSize = 0;
-            this.btnDeleteDriver2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnDeleteDriver2.Image = global::MotorInsuranceCalculationProgram.Properties.Resources.Red_Cross_32x32;
-            this.btnDeleteDriver2.Location = new System.Drawing.Point(387, 41);
-            this.btnDeleteDriver2.Name = "btnDeleteDriver2";
-            this.btnDeleteDriver2.Size = new System.Drawing.Size(32, 32);
-            this.btnDeleteDriver2.TabIndex = 8;
-            this.btnDeleteDriver2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnDeleteDriver2.UseVisualStyleBackColor = true;
-            // 
-            // btnDeleteDriver3
-            // 
-            this.btnDeleteDriver3.FlatAppearance.BorderSize = 0;
-            this.btnDeleteDriver3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnDeleteDriver3.Image = global::MotorInsuranceCalculationProgram.Properties.Resources.Red_Cross_32x32;
-            this.btnDeleteDriver3.Location = new System.Drawing.Point(387, 79);
-            this.btnDeleteDriver3.Name = "btnDeleteDriver3";
-            this.btnDeleteDriver3.Size = new System.Drawing.Size(32, 32);
-            this.btnDeleteDriver3.TabIndex = 9;
-            this.btnDeleteDriver3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnDeleteDriver3.UseVisualStyleBackColor = true;
-            // 
-            // btnDeleteDriver4
-            // 
-            this.btnDeleteDriver4.FlatAppearance.BorderSize = 0;
-            this.btnDeleteDriver4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnDeleteDriver4.Image = global::MotorInsuranceCalculationProgram.Properties.Resources.Red_Cross_32x32;
-            this.btnDeleteDriver4.Location = new System.Drawing.Point(387, 117);
-            this.btnDeleteDriver4.Name = "btnDeleteDriver4";
-            this.btnDeleteDriver4.Size = new System.Drawing.Size(32, 32);
-            this.btnDeleteDriver4.TabIndex = 10;
-            this.btnDeleteDriver4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnDeleteDriver4.UseVisualStyleBackColor = true;
-            // 
-            // btnDeleteDriver5
-            // 
-            this.btnDeleteDriver5.FlatAppearance.BorderSize = 0;
-            this.btnDeleteDriver5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnDeleteDriver5.Image = global::MotorInsuranceCalculationProgram.Properties.Resources.Red_Cross_32x32;
-            this.btnDeleteDriver5.Location = new System.Drawing.Point(387, 155);
-            this.btnDeleteDriver5.Name = "btnDeleteDriver5";
-            this.btnDeleteDriver5.Size = new System.Drawing.Size(32, 32);
-            this.btnDeleteDriver5.TabIndex = 11;
-            this.btnDeleteDriver5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnDeleteDriver5.UseVisualStyleBackColor = true;
             // 
             // btnAddDriver
             // 
@@ -223,15 +113,137 @@
             this.btnAddDriver.TabIndex = 5;
             this.btnAddDriver.Text = "Add Driver";
             this.btnAddDriver.UseVisualStyleBackColor = true;
+            this.btnAddDriver.Click += new System.EventHandler(this.btnAddDriver_Click);
             // 
             // btnCalculatePremium
             // 
-            this.btnCalculatePremium.Location = new System.Drawing.Point(340, 308);
+            this.btnCalculatePremium.Location = new System.Drawing.Point(320, 431);
             this.btnCalculatePremium.Name = "btnCalculatePremium";
             this.btnCalculatePremium.Size = new System.Drawing.Size(112, 32);
             this.btnCalculatePremium.TabIndex = 6;
             this.btnCalculatePremium.Text = "Calculate";
             this.btnCalculatePremium.UseVisualStyleBackColor = true;
+            this.btnCalculatePremium.Click += new System.EventHandler(this.btnCalculatePremium_Click);
+            // 
+            // btnEditDriver5
+            // 
+            this.btnEditDriver5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnEditDriver5.Location = new System.Drawing.Point(3, 155);
+            this.btnEditDriver5.Name = "btnEditDriver5";
+            this.btnEditDriver5.Size = new System.Drawing.Size(383, 32);
+            this.btnEditDriver5.TabIndex = 6;
+            this.btnEditDriver5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnEditDriver5.UseVisualStyleBackColor = true;
+            this.btnEditDriver5.Visible = false;
+            // 
+            // btnEditDriver4
+            // 
+            this.btnEditDriver4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnEditDriver4.Location = new System.Drawing.Point(3, 117);
+            this.btnEditDriver4.Name = "btnEditDriver4";
+            this.btnEditDriver4.Size = new System.Drawing.Size(383, 32);
+            this.btnEditDriver4.TabIndex = 5;
+            this.btnEditDriver4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnEditDriver4.UseVisualStyleBackColor = true;
+            this.btnEditDriver4.Visible = false;
+            // 
+            // btnEditDriver3
+            // 
+            this.btnEditDriver3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnEditDriver3.Location = new System.Drawing.Point(3, 79);
+            this.btnEditDriver3.Name = "btnEditDriver3";
+            this.btnEditDriver3.Size = new System.Drawing.Size(383, 32);
+            this.btnEditDriver3.TabIndex = 4;
+            this.btnEditDriver3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnEditDriver3.UseVisualStyleBackColor = true;
+            this.btnEditDriver3.Visible = false;
+            // 
+            // btnEditDriver2
+            // 
+            this.btnEditDriver2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnEditDriver2.Location = new System.Drawing.Point(3, 41);
+            this.btnEditDriver2.Name = "btnEditDriver2";
+            this.btnEditDriver2.Size = new System.Drawing.Size(383, 32);
+            this.btnEditDriver2.TabIndex = 3;
+            this.btnEditDriver2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnEditDriver2.UseVisualStyleBackColor = true;
+            this.btnEditDriver2.Visible = false;
+            // 
+            // btnEditDriver1
+            // 
+            this.btnEditDriver1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnEditDriver1.Location = new System.Drawing.Point(3, 3);
+            this.btnEditDriver1.Name = "btnEditDriver1";
+            this.btnEditDriver1.Size = new System.Drawing.Size(383, 32);
+            this.btnEditDriver1.TabIndex = 2;
+            this.btnEditDriver1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnEditDriver1.UseVisualStyleBackColor = true;
+            this.btnEditDriver1.Visible = false;
+            // 
+            // btnDeleteDriver5
+            // 
+            this.btnDeleteDriver5.FlatAppearance.BorderSize = 0;
+            this.btnDeleteDriver5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDeleteDriver5.Image = global::MotorInsuranceCalculationProgram.Properties.Resources.Red_Cross_24x24;
+            this.btnDeleteDriver5.Location = new System.Drawing.Point(392, 157);
+            this.btnDeleteDriver5.Name = "btnDeleteDriver5";
+            this.btnDeleteDriver5.Size = new System.Drawing.Size(28, 28);
+            this.btnDeleteDriver5.TabIndex = 11;
+            this.btnDeleteDriver5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnDeleteDriver5.UseVisualStyleBackColor = true;
+            this.btnDeleteDriver5.Visible = false;
+            // 
+            // btnDeleteDriver4
+            // 
+            this.btnDeleteDriver4.FlatAppearance.BorderSize = 0;
+            this.btnDeleteDriver4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDeleteDriver4.Image = global::MotorInsuranceCalculationProgram.Properties.Resources.Red_Cross_24x24;
+            this.btnDeleteDriver4.Location = new System.Drawing.Point(392, 119);
+            this.btnDeleteDriver4.Name = "btnDeleteDriver4";
+            this.btnDeleteDriver4.Size = new System.Drawing.Size(28, 28);
+            this.btnDeleteDriver4.TabIndex = 10;
+            this.btnDeleteDriver4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnDeleteDriver4.UseVisualStyleBackColor = true;
+            this.btnDeleteDriver4.Visible = false;
+            // 
+            // btnDeleteDriver3
+            // 
+            this.btnDeleteDriver3.FlatAppearance.BorderSize = 0;
+            this.btnDeleteDriver3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDeleteDriver3.Image = global::MotorInsuranceCalculationProgram.Properties.Resources.Red_Cross_24x24;
+            this.btnDeleteDriver3.Location = new System.Drawing.Point(392, 81);
+            this.btnDeleteDriver3.Name = "btnDeleteDriver3";
+            this.btnDeleteDriver3.Size = new System.Drawing.Size(28, 28);
+            this.btnDeleteDriver3.TabIndex = 9;
+            this.btnDeleteDriver3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnDeleteDriver3.UseVisualStyleBackColor = true;
+            this.btnDeleteDriver3.Visible = false;
+            // 
+            // btnDeleteDriver2
+            // 
+            this.btnDeleteDriver2.FlatAppearance.BorderSize = 0;
+            this.btnDeleteDriver2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDeleteDriver2.Image = global::MotorInsuranceCalculationProgram.Properties.Resources.Red_Cross_24x24;
+            this.btnDeleteDriver2.Location = new System.Drawing.Point(392, 43);
+            this.btnDeleteDriver2.Name = "btnDeleteDriver2";
+            this.btnDeleteDriver2.Size = new System.Drawing.Size(28, 28);
+            this.btnDeleteDriver2.TabIndex = 8;
+            this.btnDeleteDriver2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnDeleteDriver2.UseVisualStyleBackColor = true;
+            this.btnDeleteDriver2.Visible = false;
+            // 
+            // btnDeleteDriver1
+            // 
+            this.btnDeleteDriver1.FlatAppearance.BorderSize = 0;
+            this.btnDeleteDriver1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDeleteDriver1.Image = global::MotorInsuranceCalculationProgram.Properties.Resources.Red_Cross_24x24;
+            this.btnDeleteDriver1.Location = new System.Drawing.Point(392, 5);
+            this.btnDeleteDriver1.Name = "btnDeleteDriver1";
+            this.btnDeleteDriver1.Size = new System.Drawing.Size(28, 28);
+            this.btnDeleteDriver1.TabIndex = 7;
+            this.btnDeleteDriver1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnDeleteDriver1.UseVisualStyleBackColor = true;
+            this.btnDeleteDriver1.Visible = false;
             // 
             // frmInsurance
             // 
@@ -263,18 +275,18 @@
         private System.Windows.Forms.DateTimePicker dtpPolicyStartDate;
         private System.Windows.Forms.Label lblDriverDetails;
         private System.Windows.Forms.Panel pnlDriverDetails;
-        private System.Windows.Forms.Button btnEditDriver1;
         private System.Windows.Forms.Button btnDeleteDriver5;
         private System.Windows.Forms.Button btnDeleteDriver4;
         private System.Windows.Forms.Button btnDeleteDriver3;
         private System.Windows.Forms.Button btnDeleteDriver2;
         private System.Windows.Forms.Button btnDeleteDriver1;
+        private System.Windows.Forms.Button btnAddDriver;
+        private System.Windows.Forms.Button btnCalculatePremium;
         private System.Windows.Forms.Button btnEditDriver5;
         private System.Windows.Forms.Button btnEditDriver4;
         private System.Windows.Forms.Button btnEditDriver3;
         private System.Windows.Forms.Button btnEditDriver2;
-        private System.Windows.Forms.Button btnAddDriver;
-        private System.Windows.Forms.Button btnCalculatePremium;
+        private System.Windows.Forms.Button btnEditDriver1;
     }
 }
 

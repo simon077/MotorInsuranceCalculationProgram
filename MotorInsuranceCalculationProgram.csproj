@@ -44,6 +44,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Driver.cs" />
     <Compile Include="frmDriver.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -85,10 +86,21 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config" />
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Red Cross 32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Red Cross 28x28.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Red Cross 26x26.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Red Cross 24x24.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
