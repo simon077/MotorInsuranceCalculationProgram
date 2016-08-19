@@ -66,10 +66,18 @@ namespace MotorInsuranceCalculationProgram
         {
             if (editState == false)
             {
-                for(int a = 1; a<=numberOfClaims; a++)
+                if (numberOfClaims >= 1) claimDate.Add(dtpClaim1.Value);
+                if (numberOfClaims >= 2) claimDate.Add(dtpClaim2.Value);
+                if (numberOfClaims >= 3) claimDate.Add(dtpClaim3.Value);
+                if (numberOfClaims >= 4) claimDate.Add(dtpClaim4.Value);
+                if (numberOfClaims >= 5) claimDate.Add(dtpClaim5.Value);
+
+                Driver driver = new Driver(txtFullName.Text, dtpDateOfBirth.Value, cboOccupation.Text, numberOfClaims, claimDate);
+                for (int a = 0; a < numberOfClaims; a++)
                 {
-                    
+                    MessageBox.Show(driver.ClaimDate[a] + "  ");
                 }
+                MessageBox.Show(driver.FullName + " " + driver.Occupation);
             }
 
 
