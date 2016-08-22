@@ -37,18 +37,18 @@
             this.chkYes = new System.Windows.Forms.CheckBox();
             this.chkNo = new System.Windows.Forms.CheckBox();
             this.pnlClaimDetails = new System.Windows.Forms.Panel();
-            this.dtpClaim1 = new System.Windows.Forms.DateTimePicker();
-            this.btnDeleteClaim1 = new System.Windows.Forms.Button();
-            this.btnDeleteClaim2 = new System.Windows.Forms.Button();
-            this.btnDeleteClaim3 = new System.Windows.Forms.Button();
-            this.btnDeleteClaim4 = new System.Windows.Forms.Button();
-            this.btnDeleteClaim5 = new System.Windows.Forms.Button();
-            this.dtpClaim2 = new System.Windows.Forms.DateTimePicker();
-            this.dtpClaim3 = new System.Windows.Forms.DateTimePicker();
-            this.dtpClaim4 = new System.Windows.Forms.DateTimePicker();
-            this.dtpClaim5 = new System.Windows.Forms.DateTimePicker();
-            this.btnAddClaim = new System.Windows.Forms.Button();
             this.lblDateOfClaims = new System.Windows.Forms.Label();
+            this.dtpClaim5 = new System.Windows.Forms.DateTimePicker();
+            this.dtpClaim4 = new System.Windows.Forms.DateTimePicker();
+            this.dtpClaim3 = new System.Windows.Forms.DateTimePicker();
+            this.dtpClaim2 = new System.Windows.Forms.DateTimePicker();
+            this.btnDeleteClaim5 = new System.Windows.Forms.Button();
+            this.btnDeleteClaim4 = new System.Windows.Forms.Button();
+            this.btnDeleteClaim3 = new System.Windows.Forms.Button();
+            this.btnDeleteClaim2 = new System.Windows.Forms.Button();
+            this.btnDeleteClaim1 = new System.Windows.Forms.Button();
+            this.dtpClaim1 = new System.Windows.Forms.DateTimePicker();
+            this.btnAddClaim = new System.Windows.Forms.Button();
             this.btnCancel = new System.Windows.Forms.Button();
             this.btnSave = new System.Windows.Forms.Button();
             this.lblDateOfBirth = new System.Windows.Forms.Label();
@@ -154,67 +154,55 @@
             this.pnlClaimDetails.Size = new System.Drawing.Size(362, 159);
             this.pnlClaimDetails.TabIndex = 10;
             // 
-            // dtpClaim1
+            // lblDateOfClaims
             // 
-            this.dtpClaim1.CustomFormat = "dd MMM yyyy";
-            this.dtpClaim1.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dtpClaim1.Location = new System.Drawing.Point(135, 3);
-            this.dtpClaim1.Name = "dtpClaim1";
-            this.dtpClaim1.Size = new System.Drawing.Size(144, 26);
-            this.dtpClaim1.TabIndex = 12;
-            this.dtpClaim1.Visible = false;
+            this.lblDateOfClaims.AutoSize = true;
+            this.lblDateOfClaims.Location = new System.Drawing.Point(3, 5);
+            this.lblDateOfClaims.Name = "lblDateOfClaims";
+            this.lblDateOfClaims.Size = new System.Drawing.Size(127, 20);
+            this.lblDateOfClaims.TabIndex = 22;
+            this.lblDateOfClaims.Text = "Date of Claim(s):";
+            this.lblDateOfClaims.Visible = false;
             // 
-            // btnDeleteClaim1
+            // dtpClaim5
             // 
-            this.btnDeleteClaim1.FlatAppearance.BorderSize = 0;
-            this.btnDeleteClaim1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnDeleteClaim1.Image = global::MotorInsuranceCalculationProgram.Properties.Resources.Red_Cross_24x24;
-            this.btnDeleteClaim1.Location = new System.Drawing.Point(285, 1);
-            this.btnDeleteClaim1.Name = "btnDeleteClaim1";
-            this.btnDeleteClaim1.Size = new System.Drawing.Size(28, 28);
-            this.btnDeleteClaim1.TabIndex = 13;
-            this.btnDeleteClaim1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnDeleteClaim1.UseVisualStyleBackColor = true;
-            this.btnDeleteClaim1.Visible = false;
+            this.dtpClaim5.CustomFormat = "dd MMM yyyy";
+            this.dtpClaim5.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.dtpClaim5.Location = new System.Drawing.Point(135, 130);
+            this.dtpClaim5.Name = "dtpClaim5";
+            this.dtpClaim5.Size = new System.Drawing.Size(144, 26);
+            this.dtpClaim5.TabIndex = 21;
+            this.dtpClaim5.Visible = false;
             // 
-            // btnDeleteClaim2
+            // dtpClaim4
             // 
-            this.btnDeleteClaim2.FlatAppearance.BorderSize = 0;
-            this.btnDeleteClaim2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnDeleteClaim2.Image = global::MotorInsuranceCalculationProgram.Properties.Resources.Red_Cross_24x24;
-            this.btnDeleteClaim2.Location = new System.Drawing.Point(285, 33);
-            this.btnDeleteClaim2.Name = "btnDeleteClaim2";
-            this.btnDeleteClaim2.Size = new System.Drawing.Size(28, 28);
-            this.btnDeleteClaim2.TabIndex = 14;
-            this.btnDeleteClaim2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnDeleteClaim2.UseVisualStyleBackColor = true;
-            this.btnDeleteClaim2.Visible = false;
+            this.dtpClaim4.CustomFormat = "dd MMM yyyy";
+            this.dtpClaim4.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.dtpClaim4.Location = new System.Drawing.Point(135, 99);
+            this.dtpClaim4.Name = "dtpClaim4";
+            this.dtpClaim4.Size = new System.Drawing.Size(144, 26);
+            this.dtpClaim4.TabIndex = 20;
+            this.dtpClaim4.Visible = false;
             // 
-            // btnDeleteClaim3
+            // dtpClaim3
             // 
-            this.btnDeleteClaim3.FlatAppearance.BorderSize = 0;
-            this.btnDeleteClaim3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnDeleteClaim3.Image = global::MotorInsuranceCalculationProgram.Properties.Resources.Red_Cross_24x24;
-            this.btnDeleteClaim3.Location = new System.Drawing.Point(285, 65);
-            this.btnDeleteClaim3.Name = "btnDeleteClaim3";
-            this.btnDeleteClaim3.Size = new System.Drawing.Size(28, 28);
-            this.btnDeleteClaim3.TabIndex = 15;
-            this.btnDeleteClaim3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnDeleteClaim3.UseVisualStyleBackColor = true;
-            this.btnDeleteClaim3.Visible = false;
+            this.dtpClaim3.CustomFormat = "dd MMM yyyy";
+            this.dtpClaim3.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.dtpClaim3.Location = new System.Drawing.Point(135, 67);
+            this.dtpClaim3.Name = "dtpClaim3";
+            this.dtpClaim3.Size = new System.Drawing.Size(144, 26);
+            this.dtpClaim3.TabIndex = 19;
+            this.dtpClaim3.Visible = false;
             // 
-            // btnDeleteClaim4
+            // dtpClaim2
             // 
-            this.btnDeleteClaim4.FlatAppearance.BorderSize = 0;
-            this.btnDeleteClaim4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnDeleteClaim4.Image = global::MotorInsuranceCalculationProgram.Properties.Resources.Red_Cross_24x24;
-            this.btnDeleteClaim4.Location = new System.Drawing.Point(285, 97);
-            this.btnDeleteClaim4.Name = "btnDeleteClaim4";
-            this.btnDeleteClaim4.Size = new System.Drawing.Size(28, 28);
-            this.btnDeleteClaim4.TabIndex = 16;
-            this.btnDeleteClaim4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnDeleteClaim4.UseVisualStyleBackColor = true;
-            this.btnDeleteClaim4.Visible = false;
+            this.dtpClaim2.CustomFormat = "dd MMM yyyy";
+            this.dtpClaim2.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.dtpClaim2.Location = new System.Drawing.Point(135, 35);
+            this.dtpClaim2.Name = "dtpClaim2";
+            this.dtpClaim2.Size = new System.Drawing.Size(144, 26);
+            this.dtpClaim2.TabIndex = 18;
+            this.dtpClaim2.Visible = false;
             // 
             // btnDeleteClaim5
             // 
@@ -229,45 +217,67 @@
             this.btnDeleteClaim5.UseVisualStyleBackColor = true;
             this.btnDeleteClaim5.Visible = false;
             // 
-            // dtpClaim2
+            // btnDeleteClaim4
             // 
-            this.dtpClaim2.CustomFormat = "dd MMM yyyy";
-            this.dtpClaim2.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dtpClaim2.Location = new System.Drawing.Point(135, 35);
-            this.dtpClaim2.Name = "dtpClaim2";
-            this.dtpClaim2.Size = new System.Drawing.Size(144, 26);
-            this.dtpClaim2.TabIndex = 18;
-            this.dtpClaim2.Visible = false;
+            this.btnDeleteClaim4.FlatAppearance.BorderSize = 0;
+            this.btnDeleteClaim4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDeleteClaim4.Image = global::MotorInsuranceCalculationProgram.Properties.Resources.Red_Cross_24x24;
+            this.btnDeleteClaim4.Location = new System.Drawing.Point(285, 97);
+            this.btnDeleteClaim4.Name = "btnDeleteClaim4";
+            this.btnDeleteClaim4.Size = new System.Drawing.Size(28, 28);
+            this.btnDeleteClaim4.TabIndex = 16;
+            this.btnDeleteClaim4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnDeleteClaim4.UseVisualStyleBackColor = true;
+            this.btnDeleteClaim4.Visible = false;
             // 
-            // dtpClaim3
+            // btnDeleteClaim3
             // 
-            this.dtpClaim3.CustomFormat = "dd MMM yyyy";
-            this.dtpClaim3.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dtpClaim3.Location = new System.Drawing.Point(135, 67);
-            this.dtpClaim3.Name = "dtpClaim3";
-            this.dtpClaim3.Size = new System.Drawing.Size(144, 26);
-            this.dtpClaim3.TabIndex = 19;
-            this.dtpClaim3.Visible = false;
+            this.btnDeleteClaim3.FlatAppearance.BorderSize = 0;
+            this.btnDeleteClaim3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDeleteClaim3.Image = global::MotorInsuranceCalculationProgram.Properties.Resources.Red_Cross_24x24;
+            this.btnDeleteClaim3.Location = new System.Drawing.Point(285, 65);
+            this.btnDeleteClaim3.Name = "btnDeleteClaim3";
+            this.btnDeleteClaim3.Size = new System.Drawing.Size(28, 28);
+            this.btnDeleteClaim3.TabIndex = 15;
+            this.btnDeleteClaim3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnDeleteClaim3.UseVisualStyleBackColor = true;
+            this.btnDeleteClaim3.Visible = false;
             // 
-            // dtpClaim4
+            // btnDeleteClaim2
             // 
-            this.dtpClaim4.CustomFormat = "dd MMM yyyy";
-            this.dtpClaim4.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dtpClaim4.Location = new System.Drawing.Point(135, 99);
-            this.dtpClaim4.Name = "dtpClaim4";
-            this.dtpClaim4.Size = new System.Drawing.Size(144, 26);
-            this.dtpClaim4.TabIndex = 20;
-            this.dtpClaim4.Visible = false;
+            this.btnDeleteClaim2.FlatAppearance.BorderSize = 0;
+            this.btnDeleteClaim2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDeleteClaim2.Image = global::MotorInsuranceCalculationProgram.Properties.Resources.Red_Cross_24x24;
+            this.btnDeleteClaim2.Location = new System.Drawing.Point(285, 33);
+            this.btnDeleteClaim2.Name = "btnDeleteClaim2";
+            this.btnDeleteClaim2.Size = new System.Drawing.Size(28, 28);
+            this.btnDeleteClaim2.TabIndex = 14;
+            this.btnDeleteClaim2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnDeleteClaim2.UseVisualStyleBackColor = true;
+            this.btnDeleteClaim2.Visible = false;
             // 
-            // dtpClaim5
+            // btnDeleteClaim1
             // 
-            this.dtpClaim5.CustomFormat = "dd MMM yyyy";
-            this.dtpClaim5.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dtpClaim5.Location = new System.Drawing.Point(135, 130);
-            this.dtpClaim5.Name = "dtpClaim5";
-            this.dtpClaim5.Size = new System.Drawing.Size(144, 26);
-            this.dtpClaim5.TabIndex = 21;
-            this.dtpClaim5.Visible = false;
+            this.btnDeleteClaim1.FlatAppearance.BorderSize = 0;
+            this.btnDeleteClaim1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDeleteClaim1.Image = global::MotorInsuranceCalculationProgram.Properties.Resources.Red_Cross_24x24;
+            this.btnDeleteClaim1.Location = new System.Drawing.Point(285, 1);
+            this.btnDeleteClaim1.Name = "btnDeleteClaim1";
+            this.btnDeleteClaim1.Size = new System.Drawing.Size(28, 28);
+            this.btnDeleteClaim1.TabIndex = 13;
+            this.btnDeleteClaim1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnDeleteClaim1.UseVisualStyleBackColor = true;
+            this.btnDeleteClaim1.Visible = false;
+            // 
+            // dtpClaim1
+            // 
+            this.dtpClaim1.CustomFormat = "dd MMM yyyy";
+            this.dtpClaim1.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.dtpClaim1.Location = new System.Drawing.Point(135, 3);
+            this.dtpClaim1.Name = "dtpClaim1";
+            this.dtpClaim1.Size = new System.Drawing.Size(144, 26);
+            this.dtpClaim1.TabIndex = 12;
+            this.dtpClaim1.Visible = false;
             // 
             // btnAddClaim
             // 
@@ -279,16 +289,6 @@
             this.btnAddClaim.UseVisualStyleBackColor = true;
             this.btnAddClaim.Visible = false;
             this.btnAddClaim.Click += new System.EventHandler(this.btnAddClaim_Click);
-            // 
-            // lblDateOfClaims
-            // 
-            this.lblDateOfClaims.AutoSize = true;
-            this.lblDateOfClaims.Location = new System.Drawing.Point(3, 5);
-            this.lblDateOfClaims.Name = "lblDateOfClaims";
-            this.lblDateOfClaims.Size = new System.Drawing.Size(127, 20);
-            this.lblDateOfClaims.TabIndex = 22;
-            this.lblDateOfClaims.Text = "Date of Claim(s):";
-            this.lblDateOfClaims.Visible = false;
             // 
             // btnCancel
             // 

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MotorInsuranceCalculationProgram
 {
-    class Driver
+    public class Driver
     {
         //Class Variables
         private string fullName { get; set; }
@@ -27,19 +27,6 @@ namespace MotorInsuranceCalculationProgram
             this.claimDate = claimDate;
 
         }
-
-        public Driver(string fullName, DateTime dateOfBirth, string occupation, int numberOfClaims, params DateTime[] claimDate)
-        {
-            this.fullName = fullName;
-            this.dateOfBirth = dateOfBirth;
-            this.occupation = occupation;
-            this.numberOfClaims = numberOfClaims;
-            this.claimDate = new List<DateTime>(claimDate);
-
-        }
-
-
-
 
         // Gets & Sets
         public string FullName

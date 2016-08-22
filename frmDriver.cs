@@ -13,7 +13,8 @@ namespace MotorInsuranceCalculationProgram
 {
     public partial class frmDriver : Form
     {
-        Boolean editState;
+        Boolean saveClicked;
+        Boolean editState, addState;
         int numberOfClaims = 0;
         List<DateTime> claimDate = new List<DateTime>();
 
@@ -21,9 +22,10 @@ namespace MotorInsuranceCalculationProgram
         {
             InitializeComponent();
         }
-        public frmDriver(Boolean editState)
+        public frmDriver(Boolean editState, Boolean addState)
         {
             this.editState = editState;
+            this.addState = addState;
         }
 
         private void chkYes_CheckedChanged(object sender, EventArgs e)
@@ -64,23 +66,31 @@ namespace MotorInsuranceCalculationProgram
 
         private void btnSave_Click(object sender, EventArgs e)
         {
-            if (editState == false)
+            saveClicked = true;
+            if (addState == true)
             {
+                // Save claims to List
                 if (numberOfClaims >= 1) claimDate.Add(dtpClaim1.Value);
                 if (numberOfClaims >= 2) claimDate.Add(dtpClaim2.Value);
                 if (numberOfClaims >= 3) claimDate.Add(dtpClaim3.Value);
                 if (numberOfClaims >= 4) claimDate.Add(dtpClaim4.Value);
                 if (numberOfClaims >= 5) claimDate.Add(dtpClaim5.Value);
 
+                // Add driver then add it to the driverList on frmInsurance
                 Driver driver = new Driver(txtFullName.Text, dtpDateOfBirth.Value, cboOccupation.Text, numberOfClaims, claimDate);
+                frmInsurance.driverList.Add(driver);
+
+                // Checking to see dates are being stored
                 for (int a = 0; a < numberOfClaims; a++)
                 {
                     MessageBox.Show(driver.ClaimDate[a] + "  ");
                 }
                 MessageBox.Show(driver.FullName + " " + driver.Occupation);
+                frmInsuranceRefresh();
+
+                
             }
-
-
         }
+   
     }
 }

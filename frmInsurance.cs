@@ -16,8 +16,8 @@ namespace MotorInsuranceCalculationProgram
         int youngestDriverAge;
         int claimsWithin1Year;
         int claimsOutside1Year;
-        List<Driver> driver = new List<Driver>();
-
+        public static List<Driver> driverList = new List<Driver>();
+        
         public frmInsurance()
         {
             InitializeComponent();
@@ -38,5 +38,19 @@ namespace MotorInsuranceCalculationProgram
         {
 
         }
+
+        public void frmInsuranceRefresh()
+        {
+            if (driverList.Count() >= 1)
+            {
+                btnEditDriver1.Text = driverList[0].FullName + " - " + driverList[0].NumberOfClaims + " claims";
+            }
+            if (driverList.Count() >= 2)
+            {
+                btnEditDriver1.Text = driverList[1].FullName + " - " + driverList[1].NumberOfClaims + " claims";
+            }
+        }
+
+
     }
 }
